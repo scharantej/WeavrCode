@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Plan Prompt Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Business Plan Prompt Generator</h1>
+<p>
+Generate a comprehensive prompt for a large language model to write a business plan for a web development company.
+</p>
+<form action="/generate_prompt" method="POST">
+<label for="company_name">Company Name:</label>
+<input type="text" name="company_name" id="company_name" required>
+<br>
+<label for="target_audience">Target Audience:</label>
+<textarea name="target_audience" id="target_audience" required></textarea>
+<br>
+<label for="unique_services">Unique Services:</label>
+<textarea name="unique_services" id="unique_services" required></textarea>
+<br>
+<label for="competition">Competition:</label>
+<textarea name="competition" id="competition" required></textarea>
+<br>
+<label for="goals">Goals:</label>
+<textarea name="goals" id="goals" required></textarea>
+<br>
+<input type="submit" value="Generate Prompt">
+</form>
+</body>
+</html>
+
+
